@@ -18,6 +18,7 @@ export const getStaticProps: GetServerSideProps = async () => {
     props: {
       staticData,
     },
+    revalidate: 10,
   };
 };
 
